@@ -1,0 +1,9 @@
+package: github.com/scottjustin5000/sqs-consumer
+import:
+- package: github.com/aws/aws-sdk-go
+  version: v1.10.18
+  subpackages:
+  - aws
+  - aws/credentials
+  - aws/session
+  - service/sqs
