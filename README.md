@@ -19,7 +19,7 @@ func main() {
     return
   }
 
-  er := consumer.Init(svc, "sr-pbd-errors-prod")
+  er := consumer.Init(svc, "some-sqs-queue-stage")
 
   if er != nil {
     fmt.Println(er.Error())
